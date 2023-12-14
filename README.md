@@ -29,3 +29,26 @@ PostgreSQL JDBC Driver (PgJDBC for short) allows Java programs to connect to a P
 database independent Java code. Is an open source JDBC driver written in Pure Java (Type 4),
 and communicates in the PostgreSQL native network protocol.
 
+## Connect to PostgreSQL
+For conntect to the database we create class DatabaseConnectionManager with methode getConnection
+that return Connection type. the DatabaseConnectionManager has two fields url(string) and properties(Properties) that we initializations in its constroctor.
+
+```java
+public class DatabaseConnectionManager {
+    private final String url;
+    private final Properties properties;
+
+    public DatabaseConnectionManager(String host, String database, String username, String password){
+        this.url = "jdbc:postgresql://"+ host + ":5432/" + database;
+        this.properties = new Properties();
+        this.properties.setProperty("user", username);
+        this.properties.setProperty("password", password);
+    }
+
+    public Connection getConnection() throws SQLException {
+        return DriverManager.getConnection(this.url, this.properties);
+    }
+}
+```
+In methode main we create instance from DatabaseConnectionManager and call getConnection methode
+in this repository we use shop database you can create and insert data in your pc [this](https://www.w3schools.com/postgresql/postgresql_create_demodatabase.php) link.
