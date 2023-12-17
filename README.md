@@ -1,5 +1,6 @@
 # JDBC Quickstart
-In this repository, we are going to create a project with JDBC step by step for learning to connect to the database in Java with JDBC
+In this repository, we are going to create a project with JDBC step by step for learning to connect to the database in Java with JDBC.
+Working with JDBC in Java is a fundamental skill for interacting with databases. Starting from establishing a connection, performing queries, and updating data, there's a lot to learn. 📚
 
 ## What is JDBC?
 JDBC stands for Java Database Connectivity. It is a Java API that allows Java applications to connect and execute queries with various databases. 
