@@ -3,9 +3,7 @@ In this repository, we are going to create a project with JDBC step by step for 
 Working with JDBC in Java is a fundamental skill for interacting with databases. Starting from establishing a connection, performing queries, and updating data, there's a lot to learn. 📚
 
 ## What is JDBC?
-JDBC stands for Java Database Connectivity. It is a Java API that allows Java applications to connect and execute queries with various databases. 
-It provides a standard abstraction for database communication and supports different types of JDBC drivers.
-JDBC also offers classes and interfaces for data access and processing in relational databases.
+JDBC stands for Java Database Connectivity. JDBC is indeed the Java Database Connectivity, which provides exactly! JDBC (Java Database Connectivity) is indeed a Java API that provides a standard interface for accessing relational databases. It allows Java programs to connect to and interact with a wide range of databases using SQL. Through JDBC, developers can execute SQL statements, retrieve results, and update data in a database. JDBC provides a set of classes and interfaces for database operations, making it easier to work with databases in Java applications.
 
 ## Dependencies
 We use Maven to manage dependencies in our project. For this tutorial, we need PostgreSQL JDBC Driver because we want to connect a database on PostgreSQL
