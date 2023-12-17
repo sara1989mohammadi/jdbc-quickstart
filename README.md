@@ -20,8 +20,7 @@ and we have to add the following dependency to your pom.xml.
 ```
 
 ### What is Maven?
-Maven is a software project management and comprehension tool mainly used for Java-based projects.
-It can help you build, publish, and deploy your projects, as well as manage their dependencies and documentation.
+🛠️ Maven is a powerful tool commonly used for managing and building Java-based projects. It simplifies the process of project management by automating tasks such as building, packaging, and dependency management. It also provides a standardized way to structure projects and manage project documentation. Overall, Maven helps streamline the development workflow for Java projects.
 
 ### What is PostgreSQL JDBC Driver?
 PostgreSQL JDBC Driver (PgJDBC for short) allows Java programs to connect to a PostgreSQL database using standard,
